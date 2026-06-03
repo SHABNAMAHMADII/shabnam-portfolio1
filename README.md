@@ -1,16 +1,34 @@
-# React + Vite
+# Shabnam Ahmadi - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live URL
+[https://6a20287d29de2f0d9826143e--peaceful-narwhal-c827e0.netlify.app/]
 
-Currently, two official plugins are available:
+## About This Portfolio
+My personal developer portfolio built with React for Week 7 assignment. Features include contact form with validation, feedback wall, live preview, theme toggle, and more.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Contact Form with validation & auto-save
+- Feedback Wall with 5-star ratings
+- Live Preview of form input
+- Theme Toggle (Light Pink / Dark mode)
+- Animated skill progress bars
+- Interactive project cards
 
-## React Compiler
+## Technologies Used
+- React (Vite)
+- CSS3
+- localStorage
+- useState & useEffect
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## My Projects
+1. Freelance-flow - Invoice & Client Manager
+2. Rush Theatre - Movie theater website
+3. Reading Championship - Reading tracker
 
-## Expanding the ESLint configuration
+## Week 7 Reflection
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Key lessons learned:** Using useEffect for localStorage persistence and debounced validation, implementing controlled components with useState, and creating a polling system with setInterval.
+
+**Biggest challenge:** Setting up debounced email validation with setTimeout cleanup.
+
+**Favorite feature:** The clickable avatar that cycles through different reactions!
